@@ -1,0 +1,6 @@
+// KREDENSIAL ASLI MILIK MUHAMAD ZHARFAN (FILE INI MASUK .gitignore & TIDAK DI-UPLOAD KE GITHUB)
+class AppConfig {
+  static const String supabaseUrl = 'https://enzbjjfkyiblsjdxfwnk.supabase.co';
+  static const String supabaseAnonKey = 'eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJzdXBhYmFzZSIsInJlZiI6ImVuemJqamZreWlibHNqZHhmd25rIiwicm9sZSI6ImFub24iLCJpYXQiOjE3OTM2OTg1OTUsImV4cCI6MjEwOTI3NDU5NX0.Jk7Z7ZPp8ukgSzaz6tkqH-eM8tQcOf2ea9UyoysRK7o';
+  static const String appsScriptUrl = 'https://script.google.com/macros/s/AKfycbx3mSqgbLx8-P2T_yN9AfP3AYvyRAF2xCllP_DTIeUcFyOAPBdzjB5hqvw8050LTrHSlQ/exec';
+}

@@ -1,0 +1,51 @@
+name: apk_absensi
+description: "Aplikasi Absensi Biometrik Wajah dan Sidik Jari"
+publish_to: 'none'
+version: 1.0.0+1
+
+environment:
+  sdk: ^3.5.0
+
+dependencies:
+  flutter:
+    sdk: flutter
+  
+  # UI & Fonts
+  google_fonts: ^6.1.0
+  cupertino_icons: ^1.0.8
+
+  # Network & State Management
+  http: ^1.2.0
+  dio: ^5.7.0
+  flutter_riverpod: ^2.6.1
+
+  # File & Image Utilities
+  image_picker: ^1.2.4
+  file_picker: ^13.2.0
+  image: ^4.12.0
+
+  # Biometric, Camera & Location
+  local_auth: ^3.0.2
+  camera: ^0.11.0+2
+  geolocator: ^14.1.2
+
+  # Supabase Database & Storage
+  supabase_flutter: ^2.6.0
+
+  # Machine Learning & Face Detection
+  tflite_flutter: ^0.12.1
+  google_mlkit_face_detection: ^0.15.1
+  intl: ^0.19.0
+  flutter_image_compress: ^2.5.1
+  shared_preferences: ^2.5.6
+  flutter_local_notifications: 18.0.1
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^6.0.0
+
+flutter:
+  uses-material-design: true
+  # assets:
+  #   - assets/model_wajah.tflite
